@@ -1,0 +1,6 @@
+telethon
+asyncio
+json
+sys
+re
+os
