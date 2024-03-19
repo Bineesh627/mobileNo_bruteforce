@@ -8,43 +8,43 @@ The main objective of this project is to generate a wordlist of phone numbers an
 
 1. Clone the repository:
 
-'''bash
+```sh
 git clone https://github.com/Bineesh627/mobileNo_bruteforce.git
 cd mobileNo_bruteforce
-'''
+```
 
 2. Install the required dependencies:
 
-'''bash
+```sh
 pip install -r requirements.txt
-'''
+```
 
 ## Generating Wordlist
 
-Modify the 'numberGenerator.py' file to generate the desired wordlist:
+Modify the `numberGenerator.py` file to generate the desired wordlist:
 
-'''python
+```sh
 nano numberGenerator.py
-'''
+```
 
 You can adjust the range of the list to specify the numbers you want to search for:
 
-'''python
+```python
 for i in range(1000, 10000):
-'''
+```
 
 Modify the text to match your country code and target phone number pattern:
 
-'''python
+```python
 text = f"+919281{number}34\n"
-'''
+```
 
 ## Running the Program
 
 Execute the main program to initiate the bruteforce process and retrieve phone number details in JSON format:
 
-'''python
+```python
 python main.py
-'''
+```
 
 Please note that this project is in its initial stage, and we will continue to enhance its features.
